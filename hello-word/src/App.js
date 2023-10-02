@@ -1,7 +1,9 @@
+import Button from "./components/Button"
 
-
-export default function Print () {
+export default function App() {
     return (
-      <h1>hello word</h1>
+       <div>
+        <Button />
+       </div>
     )
 }
