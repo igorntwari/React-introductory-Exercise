@@ -1,15 +1,15 @@
 import React from 'react';
 
 export default function Button() {
-  const handleButtonClick = (buttonId) => {
-    alert(`Button ${buttonId} was clicked`);
-  };
+ const[count, setCount] = React.useState(0)
+function add(){
+    setCount(count + 1)
+}
 
   return (
     <div>
-      <button onClick={() => handleButtonClick(1)}>click Me 1</button>
-      <button onClick={() => handleButtonClick(2)}>click Me 2</button>
-      <button onClick={() => handleButtonClick(3)}>click Me 3</button>
+        <h1>button has clicked: {count} times</h1>
+            <button onClick={add}>click me</button>
     </div>
   );
 }
