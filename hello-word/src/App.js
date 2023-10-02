@@ -1,9 +1,9 @@
-import Form from "./components/Form";
+import Jokes from "./components/Jokes";
 
 export default function App() {
   return (
     <div>
-    <Form />
+  <Jokes />
     </div>
   );
 }
