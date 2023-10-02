@@ -1,9 +1,9 @@
-import Jokes from "./components/Jokes";
+import Robots from "./components/Robots";
 
 export default function App() {
   return (
     <div>
-  <Jokes />
+   <Robots />
     </div>
   );
 }

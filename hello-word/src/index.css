@@ -1,4 +1,4 @@
-.joke-name{
-    background-color: aqua;
-    text-align: center;
-}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
