@@ -1,9 +1,11 @@
-import Button from "./components/Button"
 
+import List from "./components/List";
 export default function App() {
+  const itemList = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
+
     return (
        <div>
-        <Button />
+        <List  item = {itemList} />
        </div>
     )
 }
