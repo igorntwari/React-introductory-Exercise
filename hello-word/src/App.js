@@ -1,11 +1,10 @@
 
-import List from "./components/List";
 export default function App() {
-  const itemList = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
+  const itemList = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'].map(item => <li>{item}</li>)
 
-    return (
-       <div>
-        <List  item = {itemList} />
-       </div>
-    )
+  return (
+    <div>
+      <ul>{itemList} </ul>
+    </div>
+  );
 }
