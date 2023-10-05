@@ -11,8 +11,8 @@ export default function Jokes() {
         <div>
             {jokes.map((joke, index) => (
                 <div className='joke-name' key={index}>
-                    <h1>Setup: {joke.setup}</h1>
-                    <p>Punchline: {joke.punchline}</p>
+                    <h1> {joke.setup}</h1>
+                    <p> {joke.punchline}</p>
                 </div>
             ))}
         </div>
