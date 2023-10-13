@@ -1,11 +1,9 @@
+import Jokes from "./components/Jokes";
 
-import List from "./components/List";
 export default function App() {
-  const itemList = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
-
-    return (
-       <div>
-        <List  item = {itemList} />
-       </div>
-    )
+  return (
+    <div>
+  <Jokes />
+    </div>
+  );
 }
